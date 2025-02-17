@@ -20,7 +20,10 @@ flutter:
 dependencies:
   flutter:
     sdk: flutter
-  mindbox_android: ^2.11.0
+  mindbox_android: 
+    git:
+      url: https://github.com/1korostelev/mindbox-flutter-sdk.git
+      path: mindbox_android
   mindbox_ios: ^2.11.0
   mindbox_platform_interface: ^2.11.0
 
